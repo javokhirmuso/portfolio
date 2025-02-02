@@ -1,267 +1,118 @@
 import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+	backend,
+	creator,
+	email,
+	github,
+	googleScholar,
+	meta,
+	mobile,
+	phone,
+	shopify,
+	starbucks,
+	tesla,
+	web,
+	yeungnam,
+} from '../assets';
+import projects from './projects';
+import technologies from './technologies';
 
 export const navLinks = [
-  {
-    id: "about",
-    title: "About",
-  },
-  {
-    id: "work",
-    title: "Work",
-  },
-  {
-    id: "contact",
-    title: "Contact",
-  },
+	{
+		id: 'about',
+		title: 'About',
+	},
+	{
+		id: 'work',
+		title: 'Work',
+	},
+	{
+		id: 'articles',
+		title: 'Articles',
+	},
+	{
+		id: 'contact',
+		title: 'Contact',
+	},
 ];
 
 const services = [
-  {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
-
-const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+	{
+		title: '+8210 9820 9304',
+		url: 'tel:+8210 9820 9304',
+		icon: phone,
+	},
+	{
+		title: 'javokhirmuso@gmail.com',
+		url: 'mailto:javokhirmuso@gmail.com',
+		icon: email,
+	},
+	{
+		title: 'Github',
+		url: 'https://github.com/javokhirmuso',
+		icon: github,
+	},
+	{
+		title: 'Google Scholar',
+		url: 'https://scholar.google.com/citations?user=-ccQ6R0AAAAJ&hl=en&oi=ao',
+		icon: googleScholar,
+	},
 ];
 
 const experiences = [
-  {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+	{
+		title: 'Postdoctoral Researcher',
+		company_name: 'Yeungnam University | Computer Engineering Department',
+		icon: yeungnam,
+		iconBg: '#383E56',
+		date: 'March 2024 - Present',
+		points: [
+			`Conducted advanced research in computer vision, focusing on hand keypoint detection and the application of Vision Transformers (ViT).`,
+			`Collaborated with interdisciplinary teams to develop innovative algorithms enhancing machine understanding across various domains.`,
+			`Published findings in leading peer-reviewed journals and presented at international conferences, contributing to the broader scientific community.`,
+			`Mentored graduate students, fostering their research skills and guiding them in their academic pursuits. `,
+		],
+	},
+	{
+		title: 'Doctor of Philosophy',
+		company_name: 'Yeungnam University | Computer Engineering Department',
+		icon: yeungnam,
+		iconBg: '#383E56',
+		date: 'March 2020 - February 2024',
+		points: [
+			`Enhancing AI for Medical Imaging – Ph.D. Research (2020–2024) Developed IMed-CNN, an ensemble model integrating systematic model dropout and unique true prediction analysis to improve medical image classification accuracy.`,
+			`Optimizing Deep Learning for Medical Image Analysis (2020–2024) Introduced multi-channel processing and pixel-interval-based feature extraction, leading to improved diagnosis and classification in medical imaging datasets.`,
+			`Ensemble Learning for Medical AI (2020–2024) Designed novel hybrid convolutional network fusion methods to boost deep learning performance in detecting diseases from X-ray, MRI, and CT scans.`,
+			`Data Representation Innovations for Computer Vision (2020–2024) Co-developed the Image Pixel Interval Power (IPIP) method, an advanced image transformation technique enhancing deep learning classification for medical and general image datasets.`,
+			`AI for Precision Agriculture – Deep Learning in Plant Disease Detection (2020–2024) Applied deep learning methodologies to multi-input cross-layer models (MICL-UNet), improving crop disease classification accuracy and aiding smart agriculture.`,
+		],
+	},
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+	{
+		testimonial:
+			'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
+		name: 'Sara Lee',
+		designation: 'CFO',
+		company: 'Acme Co',
+		image: 'https://randomuser.me/api/portraits/women/4.jpg',
+	},
+	{
+		testimonial:
+			"I've never met a web developer who truly cares about their clients' success like Rick does.",
+		name: 'Chris Brown',
+		designation: 'COO',
+		company: 'DEF Corp',
+		image: 'https://randomuser.me/api/portraits/men/5.jpg',
+	},
+	{
+		testimonial:
+			"After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+		name: 'Lisa Wang',
+		designation: 'CTO',
+		company: '456 Enterprises',
+		image: 'https://randomuser.me/api/portraits/women/6.jpg',
+	},
 ];
 
-const projects = [
-  {
-    name: "Tomato Disease Detection",
-    description:
-      "This project aims to detect and classify various diseases in tomatoes using the YOLOv5 deep learning model. It is designed to assist farmers and agricultural technologists by providing a tool that can recognize common tomato ailments from images, helping in early diagnosis and treatment to improve crop health and yield.",
-    tags: [
-      {
-        name: "pytorch",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "roboflow",
-        color: "green-text-gradient",
-      },
-      {
-        name: "ultralytics",
-        color: "pink-text-gradient",
-      },
-    ],
-    image:
-      "https://github.com/AbdulazizAnorboev/Tomato-Disease-Detection/raw/main/results/val_batch0_pred.jpg",
-    source_code_link:
-      "https://github.com/AbdulazizAnorboev/Tomato-Disease-Detection",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
-
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
