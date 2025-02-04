@@ -17,16 +17,10 @@ export default [
 		source_code_link: 'https://ieeexplore.ieee.org/abstract/document/10025707',
 	},
 	{
-		name: 'ICNN-Ensemble: An Improved Convolutional Neural Network Ensemble Model for Medical Image Classification',
-		description: `Deep learning (DL) classification has significantly advanced medical image analysis, particularly in cancer prediction and cell classification. However, existing models often lack generalizability, limiting their effectiveness across diverse datasets. This research introduces ICNN-Ensemble, an improved convolutional neural network ensemble model that leverages high-resolution image channel representations (RHRIC) and a systematic model dropout ensemble (SMDE) to enhance classification accuracy. By optimizing residual feature connections and ensemble selection, the proposed method achieves superior performance on medical datasets, particularly in Malaria cell classification, demonstrating its potential for broader real-world applications.`,
+		name: 'Hybrid Convolutional Network Fusion: Enhanced Medical Image Classification with Dual-Pathway Learning from Raw and Enhanced Visual Features',
+		description: `Medical image classification requires extracting subtle features that may not be apparent in raw pixel distributions, making preprocessing a crucial step. This study introduces a hybrid dual-pathway learning architecture, where raw images are processed by ResNet50 while filtered images with enhanced pixel intensities are analyzed by MobileNetV2, ensuring a more comprehensive feature extraction. By leveraging dual-stream learning and ensemble techniques, the proposed approach improves classification accuracy and enhances diagnostic insights in medical imaging applications.`,
 		image: paper3,
-		source_code_link: 'https://ieeexplore.ieee.org/abstract/document/10214220',
-	},
-	{
-		name: `IMed-CNN: Ensemble Learning Approach with Systematic Model Dropout for Enhanced Medical Image Classification Using Image Channels and Pixel Intervals`,
-		description: `Deep learning models for image classification often struggle with optimizing ensemble selection, leading to inefficiencies in both accuracy and computational performance. This study presents IMed-CNN, a systematic approach that strategically applies model dropout to ensure that only the most effective models contribute to the final ensemble. By refining feature extraction and balancing model training complexities, the proposed framework significantly improves classification accuracy across multiple datasets, setting a strong foundation for future advancements in image processing and machine learning.`,
-		image: paper4,
 		source_code_link:
-			'https://www.overleaf.com/project/6721c465dfc33e0bd4662b04',
+			'https://link.springer.com/chapter/10.1007/978-3-031-70816-9_10',
 	},
 ];

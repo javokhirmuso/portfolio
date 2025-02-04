@@ -98,13 +98,15 @@ const Articles = () => {
 			</div>
 			{isHome && (
 				<div className='mt-10 flex justify-center'>
-					<Link
-						to={'/articles'}
+					<a
+						href={'https://ieeexplore.ieee.org/author/37089708748'}
+						target='_blank'
+						rel='noopener noreferrer'
 						type='submit'
 						className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
 					>
 						See all
-					</Link>
+					</a>
 				</div>
 			)}
 		</>
