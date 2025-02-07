@@ -72,7 +72,7 @@ const Articles = () => {
 		<>
 			<motion.div variants={textVariant()}>
 				<p className={`${styles.sectionSubText} `}>My papers</p>
-				<h2 className={`${styles.sectionHeadText}`}>Articles.</h2>
+				<h2 className={`${styles.sectionHeadText}`}>SCIE Journal Papers</h2>
 			</motion.div>
 
 			<div className='w-full flex'>
