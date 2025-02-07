@@ -99,7 +99,7 @@ const Articles = () => {
 			{isHome && (
 				<div className='mt-10 flex justify-center'>
 					<a
-						href={'https://ieeexplore.ieee.org/author/37089708748'}
+						href={'https://scholar.google.com/citations?user=-ccQ6R0AAAAJ&hl=en&oi=ao'}
 						target='_blank'
 						rel='noopener noreferrer'
 						type='submit'
